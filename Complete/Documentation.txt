@@ -1,0 +1,56 @@
+HTML - StateLess
+Ex: Agent Registration
+
+React
+UI Framework - It is meant for UI. In terms of MVC framework, people consider react as View.
+We can design interactive screens.
+All business logic can be written in Javascript
+
+React - JS + JSX (which is similar to HTML)
+DOM - Document object model
+Virtual DOM
+
+<label>User Name</label>
+<TextBox> </TextBox>
+
+
+DOM - Initial Screen
+
+<Label></Label>
+<Button></Button>
+<Div></Div>
+
+
+
+DOM - After Clicking of Button
+<Label></Label>
+<Button></Button>
+<Div>
+	<Container1></Container1>
+	<Container2></Container2>
+</Div>
+
+Disadvantages with current framworks ( and fixed in react)
+	It refreshes screen completely and affects performance
+
+React
+	Maintains 2 copies 
+		DOM
+		Virtual DOM
+	After Clicking of Button
+		Virtual DOM is recreated completely
+		Merged with orignial DOM and update UI with modified nodes ie process happens backend only and User will have higer Transistion time.
+		Ex: Game - Movement of vehicle in Real Dom and complete Nodes recalculated in Virtual Dom
+			Component -
+				Vehicle
+				Road
+				Background
+State
+	Complete Page Level
+	Component Level
+	
+	
+
+
+		
+	
